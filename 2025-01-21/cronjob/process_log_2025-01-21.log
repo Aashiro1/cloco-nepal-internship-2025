@@ -1,0 +1,64 @@
+Resource Usage: 2025-01-21 14:32:42
+    PID    PPID %CPU %MEM COMMAND
+  22028   21975 18.9  3.1 code
+   3434    1852  5.8  6.5 firefox-bin
+  21967   14888  5.0  2.2 code
+  22010   21972  4.5  1.6 code
+   7729    3434  3.7  9.5 Isolated Web Co
+
+Resource Usage: 2025-01-21 14:35:02
+    PID    PPID %CPU %MEM COMMAND
+  22028   21975  5.8  2.8 code
+   3434    1852  5.8  6.6 firefox-bin
+   7729    3434  3.6  9.6 Isolated Web Co
+   1852    1808  2.7  3.0 cinnamon
+   1231    1221  2.2  1.3 Xorg
+
+Resource Usage: 2025-01-21 14:40:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.7  6.5 firefox-bin
+   7729    3434  3.6  9.7 Isolated Web Co
+  22028   21975  3.3  2.7 code
+   1852    1808  2.7  3.0 cinnamon
+   1231    1221  2.2  1.3 Xorg
+
+Resource Usage: 2025-01-21 14:45:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.6  6.6 firefox-bin
+   7729    3434  3.5  9.8 Isolated Web Co
+   1852    1808  2.7  3.0 cinnamon
+   1231    1221  2.1  1.2 Xorg
+   2239    1983  1.9  4.8 slack
+
+Resource Usage: 2025-01-21 14:50:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.5  6.6 firefox-bin
+   7729    3434  3.4 10.0 Isolated Web Co
+   1852    1808  2.7  3.2 cinnamon
+   1231    1221  2.2  1.2 Xorg
+   2239    1983  1.9  4.8 slack
+
+Resource Usage: 2025-01-21 14:55:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.6  6.9 firefox-bin
+   7729    3434  3.4  9.5 Isolated Web Co
+   1852    1808  2.7  3.2 cinnamon
+   1231    1221  2.2  1.2 Xorg
+   2239    1983  1.8  4.8 slack
+
+Resource Usage: 2025-01-21 15:00:01
+    PID    PPID %CPU %MEM COMMAND
+  23917   23913  100  0.2 timeshift
+  23923   23919  100  0.0 ps
+   3434    1852  6.0  6.7 firefox-bin
+   7729    3434  3.4  9.8 Isolated Web Co
+   1852    1808  2.8  3.2 cinnamon
+
+Resource Usage: 2025-01-21 15:05:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.2  6.7 firefox-bin
+   7729    3434  3.3  9.4 Isolated Web Co
+   1852    1808  2.8  3.2 cinnamon
+   1231    1221  2.3  1.2 Xorg
+   7043    3434  2.2  8.3 Isolated Web Co
+
