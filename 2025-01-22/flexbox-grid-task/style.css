@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  } 
+  html, body {
+    height: 100%;
+  }
+  body{
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    line-height: 1.6;
+  }
+  header{
+    background: #2c3e50;
+    line-height: 1.6;
+    color:#ffff;
+    padding: 1rem;
+  }
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    max-width: 1200px;
+    margin: auto;
+  }
+  nav ul{
+    display: flex;
+    gap: 2rem;
+    list-style:none;
+  }
+  nav a:link, a:visited {
+    text-decoration: none;
+    color: #ffff;
+    padding: 0.5rem;
+    transition: 0.3s;
+  }
+  nav a:hover{
+    color: #3498db;
+  
+  }
+  /* main {
+    flex: 1;
+    padding: 1em;
+
+  } */
+  main{
+  max-width: 1200px;
+  margin: 2rem auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 2rem;
+  padding:0 1rem;
+  }
+  article{
+    background: #f8f9fa;
+    padding: 2rem;
+    border-radius: 8px;
+    position: relative;
+  }
+  .badge{
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ee0c0c;
+    color: #ffff;
+    border-radius: 50%;
+    padding: 0.5rem;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  aside {
+    position: sticky;
+    top: 2rem;
+    background: #edf2f7;
+    padding: 1.5rem;
+    border-radius: 8px;
+    height: fit-content;
+  }
+  .card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+  }
+  .card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  footer{
+    background: #2c3e50;
+    padding: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+  .footerbox{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    color: #ffff;
+  }

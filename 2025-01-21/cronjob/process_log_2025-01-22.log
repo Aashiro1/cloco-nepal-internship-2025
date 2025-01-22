@@ -1,0 +1,216 @@
+Resource Usage: 2025-01-22 09:20:01
+    PID    PPID %CPU %MEM COMMAND
+   2240    2003 22.0  5.1 slack
+   2885    2836 19.2  4.8 brave
+    104       2  6.0  0.0 kworker/1:1-mm_percpu_wq
+   2823    2813  5.7  4.2 brave
+   2863    2833  4.4  2.0 brave
+
+Resource Usage: 2025-01-22 09:25:01
+    PID    PPID %CPU %MEM COMMAND
+   2240    2003 15.6  5.1 slack
+   3183    3121  9.0  4.9 brave
+   2150    1988  3.0  1.8 slack
+    104       2  2.7  0.0 kworker/1:1-mm_percpu_wq
+    245       2  2.7  0.0 kworker/5:2-events
+
+Resource Usage: 2025-01-22 09:30:01
+    PID    PPID %CPU %MEM COMMAND
+   4037    4033  100  0.0 ps
+   3899    3121 19.8  5.2 brave
+   2240    2003 12.8  4.7 slack
+   3183    3121  4.4  4.3 brave
+   2150    1988  2.5  1.8 slack
+
+Resource Usage: 2025-01-22 09:35:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 40.1  6.4 brave
+   3147    3118 10.1  2.4 brave
+   2240    2003  9.5  4.2 slack
+   1860    1814  4.0  2.4 cinnamon
+   1238    1227  3.5  1.2 Xorg
+
+Resource Usage: 2025-01-22 09:40:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 34.2  6.6 brave
+   4125       1 31.2  0.3 fwupd
+   3147    3118 10.4  2.5 brave
+   2240    2003  7.5  4.3 slack
+   1860    1814  4.1  2.4 cinnamon
+
+Resource Usage: 2025-01-22 09:45:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 34.8  6.8 brave
+   3147    3118 12.0  2.5 brave
+   2240    2003  6.2  4.2 slack
+   1860    1814  5.1  2.4 cinnamon
+   1238    1227  3.8  1.2 Xorg
+
+Resource Usage: 2025-01-22 09:50:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 31.2  5.6 brave
+   3147    3118 11.6  2.4 brave
+   2240    2003  5.4  4.3 slack
+   1860    1814  5.2  2.4 cinnamon
+   1238    1227  3.8  1.2 Xorg
+
+Resource Usage: 2025-01-22 09:55:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 26.7  6.3 brave
+   4552    3121 10.6  4.9 brave
+   3147    3118 10.5  2.9 brave
+   4745    3121  5.6  3.1 brave
+   1860    1814  4.8  2.4 cinnamon
+
+Resource Usage: 2025-01-22 10:00:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 23.5  6.1 brave
+   3147    3118  9.3  2.6 brave
+   4745    3121  8.7  3.6 brave
+   1860    1814  4.5  2.4 cinnamon
+   2240    2003  4.3  5.1 slack
+
+Resource Usage: 2025-01-22 10:05:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 21.5  6.5 brave
+   5374    5248 19.1  5.5 Discord
+   3147    3118  8.7  2.6 brave
+   4745    3121  7.3  3.1 brave
+   5215       2  6.5  0.0 kworker/6:2-pm
+
+Resource Usage: 2025-01-22 10:10:01
+    PID    PPID %CPU %MEM COMMAND
+   3899    3121 19.0  6.6 brave
+   3147    3118  7.8  2.6 brave
+   5374    5248  6.8  5.0 Discord
+   1238    1227  6.3  1.4 Xorg
+   4745    3121  5.2  3.1 brave
+
+Resource Usage: 2025-01-22 10:15:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401 11.4  3.2 brave
+   2183    1938  6.0  3.9 slack
+   2388    2381  3.9  4.1 brave
+   1789    1750  3.6  2.4 cinnamon
+   2429    2398  3.5  2.2 brave
+
+Resource Usage: 2025-01-22 10:20:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  5.5  3.1 brave
+   1180    1170  5.4  1.3 Xorg
+   1789    1750  4.5  2.4 cinnamon
+   2623    2401  3.1  3.6 brave
+   2183    1938  2.6  3.9 slack
+
+Resource Usage: 2025-01-22 10:25:01
+    PID    PPID %CPU %MEM COMMAND
+   3463    2401 20.0  3.2 brave
+   2450    2401  7.7  3.0 brave
+   1180    1170  4.4  1.3 Xorg
+   1789    1750  3.6  2.4 cinnamon
+   2429    2398  3.4  2.3 brave
+
+Resource Usage: 2025-01-22 10:30:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  6.1  3.2 brave
+   2429    2398  5.1  2.5 brave
+   1180    1170  4.2  1.3 Xorg
+   2388    2381  4.1  4.4 brave
+   1789    1750  3.5  2.4 cinnamon
+
+Resource Usage: 2025-01-22 10:35:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  5.5  3.1 brave
+   2429    2398  5.2  2.6 brave
+   3929    2401  4.6  2.0 brave
+   2388    2381  4.2  4.5 brave
+   1180    1170  4.2  1.3 Xorg
+
+Resource Usage: 2025-01-22 10:40:01
+    PID    PPID %CPU %MEM COMMAND
+   4001    3997  100  0.0 ps
+   2450    2401  4.5  3.0 brave
+   2429    2398  4.3  2.6 brave
+   2388    2381  3.6  4.5 brave
+   1180    1170  3.5  1.3 Xorg
+
+Resource Usage: 2025-01-22 10:45:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  5.0  3.4 brave
+   2429    2398  3.9  2.6 brave
+   1180    1170  3.3  1.3 Xorg
+   2388    2381  3.3  4.3 brave
+   4041    4040  2.8  1.1 apt
+
+Resource Usage: 2025-01-22 10:50:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  5.8  3.7 brave
+   2429    2398  3.9  2.6 brave
+   1180    1170  3.4  1.3 Xorg
+   2388    2381  3.1  4.3 brave
+   1789    1750  2.7  2.4 cinnamon
+
+Resource Usage: 2025-01-22 10:55:01
+    PID    PPID %CPU %MEM COMMAND
+   4568       1 28.1  0.3 fwupd
+   4661    4622  8.8  1.8 code
+   4679    4625  8.8  4.0 code
+   2450    2401  6.0  3.6 brave
+   2429    2398  3.7  2.6 brave
+
+Resource Usage: 2025-01-22 11:00:01
+    PID    PPID %CPU %MEM COMMAND
+   5403    5399 50.0  0.2 timeshift
+   5166    5038 11.9  5.5 Discord
+   2450    2401  6.4  3.6 brave
+   2429    2398  3.6  2.6 brave
+   1180    1170  3.2  1.4 Xorg
+
+Resource Usage: 2025-01-22 11:35:01
+    PID    PPID %CPU %MEM COMMAND
+   2450    2401  3.7  3.5 brave
+   5166    5038  2.3  5.7 Discord
+   2429    2398  2.2  2.6 brave
+   1180    1170  2.0  1.5 Xorg
+   2388    2381  1.7  4.4 brave
+
+Resource Usage: 2025-01-22 11:40:01
+    PID    PPID %CPU %MEM COMMAND
+   5985       1 31.6  0.3 fwupd
+   6129    2401  6.2  2.2 brave
+   5166    5038  4.7  6.1 Discord
+   2450    2401  3.5  3.3 brave
+   1180    1170  2.2  1.5 Xorg
+
+Resource Usage: 2025-01-22 11:45:01
+    PID    PPID %CPU %MEM COMMAND
+   5985       1 31.3  0.3 fwupd
+   6234    2401  5.4  3.5 brave
+   5166    5038  5.0  5.9 Discord
+   2450    2401  3.5  3.8 brave
+   1180    1170  2.2  1.5 Xorg
+
+Resource Usage: 2025-01-22 11:50:01
+    PID    PPID %CPU %MEM COMMAND
+   6576    6572  100  0.0 ps
+   5166    5038  5.2  6.3 Discord
+   2450    2401  3.9  3.8 brave
+   6401    6347  3.8  2.6 code
+   1180    1170  2.2  1.5 Xorg
+
+Resource Usage: 2025-01-22 11:55:01
+    PID    PPID %CPU %MEM COMMAND
+   6606    6602  100  0.0 ps
+   5166    5038  5.3  5.7 Discord
+   2450    2401  4.8  6.6 brave
+   2429    2398  2.3  2.7 brave
+   1180    1170  2.3  1.5 Xorg
+
+Resource Usage: 2025-01-22 12:00:01
+    PID    PPID %CPU %MEM COMMAND
+   5166    5038  6.6  5.9 Discord
+   2450    2401  4.7  3.9 brave
+   1180    1170  2.4  1.5 Xorg
+   6401    6347  2.3  3.0 code
+   2429    2398  2.3  2.7 brave
+

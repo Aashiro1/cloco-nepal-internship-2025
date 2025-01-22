@@ -62,3 +62,267 @@ Resource Usage: 2025-01-21 15:05:01
    1231    1221  2.3  1.2 Xorg
    7043    3434  2.2  8.3 Isolated Web Co
 
+Resource Usage: 2025-01-21 15:15:01
+    PID    PPID %CPU %MEM COMMAND
+  24465       1 32.5  0.3 fwupd
+   3434    1852  6.2  6.8 firefox-bin
+   7729    3434  3.2 10.0 Isolated Web Co
+   1852    1808  2.8  3.2 cinnamon
+   1231    1221  2.3  1.2 Xorg
+
+Resource Usage: 2025-01-21 15:20:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.2  6.4 firefox-bin
+   7729    3434  3.2  9.6 Isolated Web Co
+   1852    1808  2.8  3.2 cinnamon
+   1231    1221  2.3  1.2 Xorg
+   7043    3434  2.1  7.9 Isolated Web Co
+
+Resource Usage: 2025-01-21 15:25:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.1  6.4 firefox-bin
+  25109   25054  4.6  2.7 code
+   7729    3434  3.2  9.5 Isolated Web Co
+   1852    1808  2.8  3.4 cinnamon
+   1231    1221  2.2  1.3 Xorg
+
+Resource Usage: 2025-01-21 15:30:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.0  6.4 firefox-bin
+  25109   25054  3.7  2.7 code
+   7729    3434  3.1  9.8 Isolated Web Co
+   1852    1808  2.7  3.4 cinnamon
+   1231    1221  2.2  1.3 Xorg
+
+Resource Usage: 2025-01-21 15:35:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.1  7.4 firefox-bin
+   7729    3434  3.1  9.3 Isolated Web Co
+   1852    1808  2.8  3.3 cinnamon
+  25109   25054  2.3  2.7 code
+   1231    1221  2.3  1.3 Xorg
+
+Resource Usage: 2025-01-21 15:40:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.0  6.7 firefox-bin
+   7729    3434  3.0  9.4 Isolated Web Co
+   1852    1808  2.7  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  2.0  7.9 Isolated Web Co
+
+Resource Usage: 2025-01-21 15:45:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  6.0  6.8 firefox-bin
+   7729    3434  3.0  9.6 Isolated Web Co
+   1852    1808  2.7  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  2.0  8.0 Isolated Web Co
+
+Resource Usage: 2025-01-21 15:50:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.9  6.8 firefox-bin
+   7729    3434  3.0  9.9 Isolated Web Co
+   1852    1808  2.7  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  2.0  8.1 Isolated Web Co
+
+Resource Usage: 2025-01-21 15:55:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.9  6.9 firefox-bin
+   7729    3434  2.9  9.3 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  2.0  8.2 Isolated Web Co
+
+Resource Usage: 2025-01-21 16:00:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.9  7.0 firefox-bin
+   7729    3434  2.9  9.1 Isolated Web Co
+   1852    1808  2.7  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  1.9  7.6 Isolated Web Co
+
+Resource Usage: 2025-01-21 16:05:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.9  7.0 firefox-bin
+   7729    3434  2.9  9.4 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.2  1.3 Xorg
+   7043    3434  1.9  7.7 Isolated Web Co
+
+Resource Usage: 2025-01-21 16:10:01
+    PID    PPID %CPU %MEM COMMAND
+  27494   27490  100  0.0 ps
+   3434    1852  5.8  6.3 firefox-bin
+   7729    3434  2.8  9.6 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.1  1.3 Xorg
+
+Resource Usage: 2025-01-21 16:15:01
+    PID    PPID %CPU %MEM COMMAND
+  27650       1 66.6  0.2 fwupdmgr
+   3434    1852  5.8  6.3 firefox-bin
+   7729    3434  2.8  9.1 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.1  1.3 Xorg
+
+Resource Usage: 2025-01-21 16:20:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.8  6.5 firefox-bin
+   7729    3434  2.8  9.5 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.1  1.2 Xorg
+   7043    3434  1.9  7.7 Isolated Web Co
+
+Resource Usage: 2025-01-21 16:25:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.7  6.6 firefox-bin
+   7729    3434  2.8  9.2 Isolated Web Co
+   1852    1808  2.5  3.3 cinnamon
+   1231    1221  2.1  1.2 Xorg
+   7043    3434  1.9  7.9 Isolated Web Co
+
+Resource Usage: 2025-01-21 16:30:01
+    PID    PPID %CPU %MEM COMMAND
+  28173   28169  100  0.0 ps
+   3434    1852  5.7  6.7 firefox-bin
+   7729    3434  2.7  9.2 Isolated Web Co
+   1852    1808  2.5  3.3 cinnamon
+   1231    1221  2.1  1.2 Xorg
+
+Resource Usage: 2025-01-21 16:35:01
+    PID    PPID %CPU %MEM COMMAND
+  28393   14888  6.3  0.9 xed
+   3434    1852  5.8  6.9 firefox-bin
+   7729    3434  2.7  9.1 Isolated Web Co
+   1852    1808  2.5  3.3 cinnamon
+   1231    1221  2.1  1.2 Xorg
+
+Resource Usage: 2025-01-21 16:40:01
+    PID    PPID %CPU %MEM COMMAND
+   3434    1852  5.9  6.2 firefox-bin
+   7729    3434  2.7  9.2 Isolated Web Co
+   1852    1808  2.5  3.3 cinnamon
+   1231    1221  2.1  1.1 Xorg
+   2239    1983  1.9  5.1 slack
+
+Resource Usage: 2025-01-21 16:45:01
+    PID    PPID %CPU %MEM COMMAND
+  28932   28928  100  0.0 ps
+   3434    1852  6.3  7.7 firefox-bin
+   7729    3434  2.7  9.5 Isolated Web Co
+   1852    1808  2.6  3.3 cinnamon
+   1231    1221  2.1  1.1 Xorg
+
+Resource Usage: 2025-01-21 16:50:02
+    PID    PPID %CPU %MEM COMMAND
+  31319   31315  100  0.0 ps
+  31120   30156 40.0  1.7 brave
+  30183   30153 21.2  2.3 brave
+  30143   30135 11.3  3.7 brave
+  30212   30156 10.4  2.2 brave
+
+Resource Usage: 2025-01-21 16:55:01
+    PID    PPID %CPU %MEM COMMAND
+  31558   30156 29.2  5.8 brave
+  30143   30135 18.4  4.4 brave
+  30183   30153 16.2  2.9 brave
+   1852    1808  2.7  3.2 cinnamon
+   1231    1221  2.2  1.0 Xorg
+
+Resource Usage: 2025-01-21 17:00:52
+    PID    PPID %CPU %MEM COMMAND
+  33036   33034  100  0.2 timeshift
+  31558   30156 22.2  8.8 brave
+  30143   30135 12.2  4.5 brave
+  30183   30153 10.9  3.0 brave
+   1852    1808  2.7  3.3 cinnamon
+
+Resource Usage: 2025-01-21 17:05:01
+    PID    PPID %CPU %MEM COMMAND
+  31558   30156 18.2  7.8 brave
+  30143   30135 14.0  4.5 brave
+  30183   30153 10.5  3.1 brave
+  32663   30156  6.7  3.6 brave
+   1852    1808  2.6  3.3 cinnamon
+
+Resource Usage: 2025-01-21 17:10:01
+    PID    PPID %CPU %MEM COMMAND
+  33587   33460 26.5  5.8 Discord
+  31558   30156 16.9  8.4 brave
+  30143   30135 13.7  4.6 brave
+  30183   30153  9.6  3.0 brave
+  32663   30156  5.7  3.5 brave
+
+Resource Usage: 2025-01-21 17:15:01
+    PID    PPID %CPU %MEM COMMAND
+  33942   33938  100  0.0 ps
+  31558   30156 14.8  8.3 brave
+  30143   30135 14.5  4.6 brave
+  33587   33460 11.7  5.0 Discord
+  30183   30153  9.5  3.1 brave
+
+Resource Usage: 2025-01-21 17:20:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 15.1  4.6 brave
+  31558   30156 13.0  8.2 brave
+  30183   30153  9.1  3.1 brave
+  33587   33460  8.7  5.0 Discord
+  32663   30156  3.7  3.1 brave
+
+Resource Usage: 2025-01-21 17:25:02
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 15.4  4.4 brave
+  31558   30156 12.0  8.6 brave
+  30183   30153  8.8  3.1 brave
+  33587   33460  7.4  5.5 Discord
+  32663   30156  3.1  3.1 brave
+
+Resource Usage: 2025-01-21 17:30:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 15.6  4.5 brave
+  31558   30156 11.3  8.9 brave
+  30183   30153  8.5  3.1 brave
+  33587   33460  7.1  5.3 Discord
+  32663   30156  2.6  3.1 brave
+
+Resource Usage: 2025-01-21 17:36:09
+    PID    PPID %CPU %MEM COMMAND
+  34731       1 32.0  0.3 fwupd
+  30143   30135 14.3  4.4 brave
+  31558   30156  9.9  8.7 brave
+  30183   30153  7.6  3.1 brave
+  33587   33460  6.0  5.5 Discord
+
+Resource Usage: 2025-01-21 17:40:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 13.7  4.5 brave
+  31558   30156  9.1  8.7 brave
+  30183   30153  7.2  3.1 brave
+  33587   33460  5.7  5.2 Discord
+   1852    1808  2.6  3.3 cinnamon
+
+Resource Usage: 2025-01-21 17:45:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 13.9  4.5 brave
+  31558   30156  8.3  8.8 brave
+  30183   30153  7.2  3.1 brave
+  33587   33460  5.5  5.1 Discord
+   1852    1808  2.5  3.3 cinnamon
+
+Resource Usage: 2025-01-21 17:50:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 14.1  4.5 brave
+  31558   30156  7.6  8.8 brave
+  30183   30153  7.1  3.1 brave
+  33587   33460  5.4  5.2 Discord
+   1852    1808  2.5  3.3 cinnamon
+
+Resource Usage: 2025-01-21 17:55:01
+    PID    PPID %CPU %MEM COMMAND
+  30143   30135 14.2  4.4 brave
+  30183   30153  7.0  3.1 brave
+  33587   33460  7.0  5.5 Discord
+   1852    1808  2.5  3.3 cinnamon
+   1231    1221  2.1  1.0 Xorg
+
