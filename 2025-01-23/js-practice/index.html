@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Practice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        #changeMe {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: red;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        input {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;    
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="changeMe">
+    <h1>Change my color</h1>
+
+    <button type="button">Click me</button>
+    </div>
+    <div class="form">
+    <h1>Register</h1>
+    <form onsubmit="return validateForm()">
+        <label for="name">Username:</label><br>
+        <input type="text" name="name" id="name"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" name="pass" id="pass"><br>
+        <label for="repass">Repassword:</label><br>
+        <input type="password" name="repass" id="repass"><br>
+        <input type="submit" value="Submit">
+    </form>
+    </div>
+</body>
+<script>
+    var button = document.querySelector('button');
+    var changeMe = document.querySelector('#changeMe'); 
+
+    button.addEventListener('click', function(){
+        if (changeMe.style.backgroundColor === 'red') {
+            changeMe.style.backgroundColor = 'green';
+        } else {
+            changeMe.style.backgroundColor = 'red';
+        }
+    });
+
+    function validateForm() {
+        var name = document.getElementById('name').value;
+        var email = document.getElementById('email').value;
+        var pass = document.getElementById('pass').value;
+        var repass = document.getElementById('repass').value;
+
+        if (name === "" || email === "" || pass === "" || repass === "") {
+            alert("All fields must be filled out");
+            return false;
+        }
+
+        if (pass !== repass) {
+            alert("Passwords do not match");
+            return false;
+        }
+
+        alert("Form submitted successfully");
+        return true;
+    }
+</script>
+</html>

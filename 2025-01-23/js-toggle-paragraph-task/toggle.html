@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation Task</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            font-family: 'Arial', sans-serif;
+        }
+
+        .myButton {
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #007bff;
+            border: none;
+            border-radius:10px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            font-size:50px;
+        }
+        .myParagraph {
+            font-size: 30px;
+            color: #333;
+            margin-top: 20px;
+        }
+        .myButton:hover {
+            background-color: #0056b3;
+        }
+
+        .myButton.toggled {
+            background-color: rgb(255, 211, 78);
+            color: #000;
+        }
+
+        .myParagraph, p {
+            font-size: 30px;
+            color: #333;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <button id="myButton" class="myButton" onclick="handleButtonClick()">Click me</button>
+    <p id="myParagraph" class="myParagraph">This is a paragraph.</p>
+
+    <script>
+        function handleButtonClick() {
+            // Change paragraph text
+            document.getElementById('myParagraph').innerText = 'The paragraph text has been changed!';
+
+            // Add a new paragraph dynamically
+            const newParagraph = document.createElement('p');
+            newParagraph.innerText = 'This is a new paragraph added dynamically.';
+            document.body.appendChild(newParagraph);
+
+            // Toggle the button's background color
+            document.getElementById('myButton').classList.toggle('toggled');
+        }
+    </script>
+</body>
+</html>
