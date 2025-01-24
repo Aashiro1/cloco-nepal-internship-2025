@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .form {
+            display: flex;
+            flex-direction: column;
+            width: 90%;
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px 30px 30px 20px;
+            background-color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+        .form h1 {
+            text-align: center;
+        }
+        input, select {
+            width: 100%;
+            padding: 10px;
+            margin: 5px 0 10px 0;    
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            box-sizing: border-box;
+            font-size: 15px;
+        }
+        input[type="submit"] {
+            background-color: #1e1e1e;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #2e2e2e;
+        }
+        label {
+            font-weight: bold;
+        }
+        .error {
+            color: red;
+            font-size: 15px;
+            margin-bottom: 69px;
+        }
+        .input-error {
+            border: 2px solid red;
+        }
+        @media (min-width: 600px) {
+            .form {
+                width: 50%;
+            }
+        }
+        @media (min-width: 768px) {
+            .form {
+                width: 30%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <h1>Register</h1>
+        <form onsubmit="return validateForm()">
+            <label for="name">Username:</label><br>
+            <input type="text" name="name" id="name" placeholder="Enter your username"><br>
+            <span id="nameError" class="error"></span><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email" placeholder="Enter your email"><br>
+            <span id="emailError" class="error"></span><br>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age" placeholder="Enter your age"><br>
+            <span id="ageError" class="error"></span><br>
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <span id="genderError" class="error"></span><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="pass" id="pass" placeholder="Enter your password"><br>
+            <span id="passError" class="error"></span><br>
+            <label for="repass">Repassword:</label><br>
+            <input type="password" name="repass" id="repass" placeholder="Re-enter your password"><br>
+            <span id="repassError" class="error"></span><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</body>
+<script>
+   function validateForm() {
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var age = document.getElementById('age').value;
+    var gender = document.getElementById('gender').value;
+    var pass = document.getElementById('pass').value;
+    var repass = document.getElementById('repass').value;
+
+    var nameError = document.getElementById('nameError');
+    var emailError = document.getElementById('emailError');
+    var ageError = document.getElementById('ageError');
+    var genderError = document.getElementById('genderError');
+    var passError = document.getElementById('passError');
+    var repassError = document.getElementById('repassError');
+
+    var isValid = true;
+
+    // Clear previous errors
+    nameError.textContent = "";
+    emailError.textContent = "";
+    ageError.textContent = "";
+    genderError.textContent = "";
+    passError.textContent = "";
+    repassError.textContent = "";
+
+    // Username validation
+    if (name === "") {
+        nameError.textContent = "Please enter your username";
+        document.getElementById('name').classList.add('input-error');
+        return false;
+    } else {
+        document.getElementById('name').classList.remove('input-error');
+    }
+
+    // Email validation
+    if (email === "") {
+        emailError.textContent = "Please enter your email";
+        document.getElementById('email').classList.add('input-error');
+        return false;
+    } else if (!/\S+@\S+\.\S+/.test(email)) {
+        emailError.textContent = "Please enter a valid email address";
+        document.getElementById('email').classList.add('input-error');
+        return false;
+    } else {
+        document.getElementById('email').classList.remove('input-error');
+    }
+
+    // Age validation
+    if (age === "") {
+        ageError.textContent = "Please enter your age";
+        document.getElementById('age').classList.add('input-error');
+        return false;
+    } else if (age < 10 || age > 200) {
+        ageError.textContent = "Age must be between 10 and 200";
+        document.getElementById('age').classList.add('input-error');
+        return false;
+    } else {
+        document.getElementById('age').classList.remove('input-error');
+    }
+
+    // Gender validation
+    if (gender === "") {
+        genderError.textContent = "Please select your gender";
+        document.getElementById('gender').classList.add('input-error');
+        return false;
+    } else {
+        document.getElementById('gender').classList.remove('input-error');
+    }
+
+    // Password validation
+    if (pass === "") {
+        passError.textContent = "Please enter your password";
+        document.getElementById('pass').classList.add('input-error');
+        return false;
+    } else {
+        var passRegex = /^(?=.*[a-z])(?=.*\d).{8,}$/;
+        if (pass.length < 8 || (pass.length < 15 && !passRegex.test(pass))) {
+            passError.textContent = "Password must be at least 15 characters OR at least 8 characters including a number and a lowercase letter";
+            document.getElementById('pass').classList.add('input-error');
+            return false;
+        } else {
+            document.getElementById('pass').classList.remove('input-error');
+        }
+    }
+
+    // Re-entered password validation
+    if (repass === "") {
+        repassError.textContent = "Please re-enter your password";
+        document.getElementById('repass').classList.add('input-error');
+        return false;
+    } else if (pass !== repass) {
+        repassError.textContent = "Passwords do not match!";
+        document.getElementById('pass').classList.add('input-error');
+        document.getElementById('repass').classList.add('input-error');
+        return false;
+    } else {
+        document.getElementById('repass').classList.remove('input-error');
+    }
+
+    if (!isValid) {
+        return false; // Prevent form submission
+    }
+
+    alert("Form submitted successfully");
+    return true;
+}
+
+</script>
+</html>

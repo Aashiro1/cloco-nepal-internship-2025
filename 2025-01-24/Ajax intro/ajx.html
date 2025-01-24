@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ajax example</title>
+    <script
+    src="https://code.jquery.com/jquery-3.7.1.min.js"
+    integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+    crossorigin="anonymous"></script>
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            font-size: 50px;
+            background-color: #f0f0f0;
+            margin: 0;
+            font-family: sans-serif;
+        }
+        #test {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        button {
+            padding: 20px 40px;
+            font-size: 50px;
+            cursor: pointer;
+            background-color: #709e05;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background-color: #597d05
+        }
+    </style>
+</head>
+<body>
+    <div id="test">
+        <p>A kilogram of steel is heavier than a kilogram of feathers.</p>
+    </div>
+    <button id="btn">Click to Confirm</button>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#test").load("data.txt");
+            });
+        });
+    </script>
+</body>
+</html>

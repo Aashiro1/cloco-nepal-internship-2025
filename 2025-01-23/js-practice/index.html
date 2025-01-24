@@ -33,7 +33,7 @@
             background-color: #0056b3;
         }
         .form {
-            width: 80%;
+            width: 20%;
             margin: 0 auto;
             padding: 20px;
             background-color: #fff;
@@ -41,7 +41,7 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             margin-top: 20px;
         }
-        input {
+        input, select {
             width: 100%;
             padding: 10px;
             margin: 5px 0 10px 0;    
@@ -65,28 +65,42 @@
             margin-bottom: 5px;
             font-weight: bold;
         }
-
+        .error {
+            color: red;
+        }
+        .input-error {
+            border-color: red;
+        }
     </style>
 </head>
 <body>
     <div id="changeMe">
-    <h1>Change my color</h1>
-
-    <button type="button">Click me</button>
+        <h1>Change my color</h1>
+        <button type="button">Click me</button>
     </div>
     <div class="form">
-    <h1>Register</h1>
-    <form onsubmit="return validateForm()">
-        <label for="name">Username:</label><br>
-        <input type="text" name="name" id="name"><br>
-        <label for="email">Email:</label><br>
-        <input type="email" name="email" id="email"><br>
-        <label for="pass">Password:</label><br>
-        <input type="password" name="pass" id="pass"><br>
-        <label for="repass">Repassword:</label><br>
-        <input type="password" name="repass" id="repass"><br>
-        <input type="submit" value="Submit">
-    </form>
+        <h1>Register</h1>
+        <form onsubmit="return validateForm()">
+            <label for="name">Username:</label><br>
+            <input type="text" name="name" id="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" name="email" id="email"><br>
+            <label for="age">Age:</label><br>
+            <input type="number" name="age" id="age"><br>
+            <label for="gender">Gender:</label><br>
+            <select name="gender" id="gender">
+                <option value="">Select Gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="other">Other</option>
+            </select><br>
+            <label for="pass">Password:</label><br>
+            <input type="password" name="pass" id="pass"><br>
+            <label for="repass">Repassword:</label><br>
+            <input type="password" name="repass" id="repass"><br>
+            <label id="errorMsg" class="error"></label><br>
+            <input type="submit" value="Submit">
+        </form>
     </div>
 </body>
 <script>
@@ -104,16 +118,51 @@
     function validateForm() {
         var name = document.getElementById('name').value;
         var email = document.getElementById('email').value;
+        var age = document.getElementById('age').value;
+        var gender = document.getElementById('gender').value;
         var pass = document.getElementById('pass').value;
         var repass = document.getElementById('repass').value;
+        var errorMsg = document.getElementById('errorMsg');
 
-        if (name === "" || email === "" || pass === "" || repass === "") {
-            alert("All fields must be filled out");
-            return false;
+        var isValid = true;
+
+        if (name === "" || email === "" || age === "" || gender === "" || pass === "" || repass === "") {
+            errorMsg.textContent = "Please fill in all fields correctly";
+            if (name === "") document.getElementById('name').classList.add('input-error');
+            if (email === "") document.getElementById('email').classList.add('input-error');
+            if (age === "") document.getElementById('age').classList.add('input-error');
+            if (gender === "") document.getElementById('gender').classList.add('input-error');
+            if (pass === "") document.getElementById('pass').classList.add('input-error');
+            if (repass === "") document.getElementById('repass').classList.add('input-error');
+            isValid = false;
+        } else {
+            document.getElementById('name').classList.remove('input-error');
+            document.getElementById('email').classList.remove('input-error');
+            document.getElementById('age').classList.remove('input-error');
+            document.getElementById('gender').classList.remove('input-error');
+            document.getElementById('pass').classList.remove('input-error');
+            document.getElementById('repass').classList.remove('input-error');
         }
 
         if (pass !== repass) {
-            alert("Passwords do not match");
+            errorMsg.textContent = "Passwords do not match!";
+            document.getElementById('pass').classList.add('input-error');
+            document.getElementById('repass').classList.add('input-error');
+            isValid = false;
+        } else {
+            document.getElementById('pass').classList.remove('input-error');
+            document.getElementById('repass').classList.remove('input-error');
+        }
+
+        if (age < 10 || age > 200) {
+            errorMsg.textContent = "Age must be between 10 and 200";
+            document.getElementById('age').classList.add('input-error');
+            isValid = false;
+        } else {
+            document.getElementById('age').classList.remove('input-error');
+        }
+
+        if (!isValid) {
             return false;
         }
 
