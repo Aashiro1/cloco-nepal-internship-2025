@@ -582,6 +582,7 @@
                 error: function (xhr, status, error) {
                     console.error("Error posting data:", error);
                     updateSnackbarText("An Error Occurred!");
+                    myFunction();
                 },
             });
         }
