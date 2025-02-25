@@ -1,0 +1,11 @@
+<!-- mysite/templates/book_list.html -->
+<h1>Book List</h1>
+<ul>
+    {% for book in books %}
+        <li>
+            <strong>{{ book.title }}</strong> by {{ book.author }}<br>
+            Description: {{ book.description }}<br>
+            Price: ${{ book.price }}
+        </li>
+    {% endfor %}
+</ul>
