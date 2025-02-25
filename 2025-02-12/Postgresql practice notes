@@ -1,0 +1,55 @@
+-DIFFERENCE BETWEEN CHAR AND VARCHAR
+
+CHAR
+1.	CHAR datatype is used to store character strings of fixed length
+2.	In CHAR, If the length of the string is less than set or fixed-length then it is padded with extra memory space.
+3.	CHAR stands for “Character”
+4.  We should use the CHAR datatype when we expect the data values in a column are of the same length.
+
+VARCHAR
+1.  VARCHAR datatype is used to store character strings of variable length
+2.  In VARCHAR, If the length of the string is less than the set or fixed-length then it will store as it is without padded with extra memory spaces.
+3.  VARCHAR stands for “Variable Character”
+4.  We should use the VARCHAR datatype when we expect the data values in a column are of variable length.
+
+-DIFFERENCE BETWEEN DATE AND TIMESTAMP
+
+DATE
+1. Stores:	        Only the date (YYYY-MM-DD)	
+2. Time Component:	Always set to 00:00:00
+3. Size:	        4 bytes
+4. Precision:	    No fractional seconds	
+5. Use Case:	    Birthdates, holidays, event dates
+
+TIMESTAMP
+1. Stores:          Date and time (YYYY-MM-DD HH:MI:SS)
+2. Time Component:  Includes hours, minutes, and seconds
+3. Size:            8 bytes
+4. Precision:       Can store fractional seconds (TIMESTAMP(n))
+5. Use Case:        Timestamps for logs, transactions, or event tracking
+
+
+-ON DELETE SET NULL
+ :ON DELETE SET NULL is a referential action in foreign keys that ensures when a referenced row is deleted, the foreign key in the child table is set to NULL instead of being deleted.
+
+-SERIAL
+: Signifies AUTO INCREMENT in psql
+ 
+-ERD, Identify entity, relation between entity, real time, 
+-IS MANY TO MANY TECHNICALLY POSSIBLE IN A REAL TIME SCENARIO?
+-PIVOT TABLE/ BRIDGE TABLE/ THIRD TABLE
+
+-2 TA PRIMARY KEY LAI COMPOSITE KEY BANAUNE
+-JOIN QUERIES, INNER JOIN, LEFT JOIN, RIGHT JOIN, OUTER JOIN
+-AGGREGATE QUERIES: GROUP BY, COUNT
+-SUBQUERIES: IN 
+
+*CREATE  A DBMS FOR BOOKSTORE
+-1ST IDENTIFY THE ENTITIES AND RELATIONS, WHAT ARE THE ENTITIES OF BOOKSTORE DBMS
+- DRAW IT USING DRAW.IO
+- AVG, MIN MAX, JOIN QUERIES, VALIDATIONS
+- AROUND 10 ENTITIES
+- 
+
+
+

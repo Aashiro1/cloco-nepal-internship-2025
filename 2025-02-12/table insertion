@@ -1,0 +1,26 @@
+-- Insert Authors
+INSERT INTO Authors (name, bio) VALUES ('J.K. Rowling', 'British author of Harry Potter.');
+
+-- Insert Books
+INSERT INTO Books (title, author_id, price, stock, published_date) 
+VALUES ('Harry Potter and the Sorcerer''s Stone', 1, 19.99, 50, '1997-06-26');
+
+-- Insert Categories
+INSERT INTO Categories (category_name) VALUES ('Fantasy');
+
+-- Link Books to Categories
+INSERT INTO Books_Categories (book_id, category_id) VALUES (1, 1);
+
+-- Insert Customers
+INSERT INTO Customers (name, email, phone, address) 
+VALUES ('John Doe', 'john@example.com', '1234567890', '123 Elm St');
+
+-- Insert Orders
+INSERT INTO Orders (customer_id, total_price) VALUES (1, 19.99);
+
+-- Insert Order Details
+INSERT INTO Order_Details (order_id, book_id, quantity, price) VALUES (1, 1, 1, 19.99);
+
+-- Insert Payment
+INSERT INTO Payments (order_id, payment_method, amount) VALUES (1, 'Credit Card', 19.99);
+
